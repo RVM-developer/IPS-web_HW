@@ -49,9 +49,9 @@
     font-weight: normal;
 }
 
-.paragraph_title_bold 
+.text_bold
 {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Georgia', sans-serif;
     font-weight: bold;
 }
 
@@ -68,7 +68,7 @@
     margin: 0 0 10px;
 }
 
-span 
+.red
 {
     color: #fff;
     background: tomato;
@@ -134,5 +134,5 @@ a:visited
     outline: none;
 }
 .article_button:hover {
-   background-color: #5a8b05    
+   background-color: #5a8b05
 }
