@@ -1,12 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
-
 * {
     padding: 0;
     margin: 0;
 }
 
-.body {
+body {
   width: 1920px;
   height: 1188px;
   padding: 60px 752px 29px 451px;
@@ -45,8 +42,8 @@
 }
 
 .text {
-  width: 419px;
-  height: 80px;
+  width: 416px;
+  height: 84px;
   margin: 36px 271px 57px 30px;
   font-family: Lato;
   font-size: 15px;
@@ -73,6 +70,7 @@
   border-radius: 25px;
   background-color: #233fe2;
   color: #fff;
+  text-decoration: none;
 }
 
 .get_button:hover {
@@ -89,6 +87,7 @@
   border: solid 1px #ffb0b1;
   background-color: #fff;
   color: #060c31;
+  text-decoration: none;
 }
 
 .create_button:hover {
