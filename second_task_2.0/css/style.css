@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+  width: 1920px;
+  height: 1188px;
+  background-color: #fff;
+}
+
+.logo {
+  position: relative;
+  left: 88px;
+  top: 60px;
+  font-family: Crete Round;
+  font-size: 34px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.26;
+  letter-spacing: 1.7px;
+  text-align: left;
+  color: #060c31;
+}
+
+.menu {
+  position: relative;
+  left: 734px;
+  top: 37px;
+}
+
+.list_item {
+  display: inline;
+  margin: 0px 20px;
+}
+
+.create_account {
+  position: absolute;
+  top: -16px;
+  width: 164px;
+  height: 50px;
+  font-size: 15px;
+  border: 1px solid #ffb0b1;
+  border-radius: 50px;
+  text-align: center;
+  line-height: 50px;
+}
+
+.create_account:hover {
+  background-color: #ffaaa5;
+}
+
+.create_account,
+.menu_item {
+  text-decoration: none;
+  color:#000;
+  font-family: Lato;
+  font-weight: 700;
+}
+
+section {
+  margin-top: -50px;
+  margin-left: 200px;
+}
+
+.main_title {
+  width: 500px;
+  height: 186px;
+  margin-top: 270px;
+  font-family: Crete Round;
+  font-size: 58px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.1;
+  letter-spacing: 2.9px;
+  text-align: left;
+  color: #060c31;	
+}
+
+.text {
+  width: 416px;
+  height: 84px;
+  margin: 42px 271px 57px 0;
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.87;
+  letter-spacing: 0.75px;
+  text-align: left;
+  color: #060c31;
+}
+
+.button {
+  margin-top: :47px;
+  margin-bottom: 28px
+}
+
+.get_button {
+  width: 152px;
+  height: 50px;
+  margin-right: 20px;
+  padding: 19px 36px 20px 35px;
+  border-radius: 25px;
+  background-color: #233fe2;
+  color: #fff;
+  text-decoration: none;
+}
+
+.get_button:hover {
+    background-color: #0024f9;
+}
+
+.create_button {
+  width: 164px;
+  height: 50px;
+  margin-right: 352px;
+  margin-left: 20px; 
+  padding: 19px 27px 20px;
+  border-radius: 25px;
+  border: solid 1px #ffb0b1;
+  background-color: #fff;
+  color: #060c31;
+  text-decoration: none;
+}
+
+.create_button:hover {
+    background-color: #ffaaa5;
+}
+
+.clipart {
+  position: absolute;
+  right: 400px;
+  top: 170px;
+}
+
+.footer {
+  position: absolute;
+  left: 548px;
+  top: 874px;
+}
+
+.coca_cola {
+  margin-left: 104px;
+}
+
+.unicef {
+  margin-left: 108px;
+}
+
+.gasin {
+  margin-left: 100px;
+}
+
+.git_hub {
+  margin-left: 104px;
+}
