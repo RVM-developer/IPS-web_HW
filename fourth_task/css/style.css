@@ -1,0 +1,341 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 1680px;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+
+.menu {
+	display: flex;
+	align-items: center;
+}
+
+.menu_item {
+	font: 500 16px/20px 'Montserrat', sans-serif;
+	color: #000;
+	text-decoration: none;
+	padding-left: 87px;
+}
+
+.menu_item_button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font: 600 16px/16px 'Montserrat', sans-serif;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 4.59px;
+	background-color: #05090C;
+	height: 55px;
+	/*padding: 19px 40px;*/
+}
+
+.header_button {
+    margin-left: 99px;
+    width: 247px;
+}
+
+/**/
+.top {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    margin: auto;
+    align-items: flex-start;
+    height: 800px;
+    width: 1600px;
+}
+
+.top_section {
+    width: 760px;
+    font: 600 100px/122px 'Montserrat', sans-serif;
+}
+
+.top_section_span {
+	color: #EE58B6;
+}
+
+.top_section_text {
+	font: 400 26px/31.2px 'Roboto Condensed', sans-serif;
+    width: 545px;
+    height: 62px;
+    margin-top: 10px;
+    margin-bottom: 46px;
+}
+
+.top_section_button {
+    width: 332px;
+}
+
+/**/
+.top_black_section {
+    background-color: #000;
+    max-width: 1920px;
+    height: 398px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.black_back_section {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 1148px;
+    height: 145px;
+}
+
+.black_section_item {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    width: 337px;
+    text-align: center;
+    color: white;
+    font: 400 22px/26px 'Roboto Condensed', sans-serif;
+}
+
+/**/
+.top_dedline {
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 1920px;
+    height: 1245px;
+    margin: auto;
+}
+
+.dedline_item {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    margin: auto;
+    height: 50%;
+    width: 1350px;
+}
+
+.dedline_title {
+    font: bold 48px/61px 'Montserrat', sans-serif;
+    color: #000000;
+}
+
+.dedline_text {
+    font: 400 18px/24px 'Roboto Condensed', sans-serif;
+    margin-top: 24px;
+    max-width: 620px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+/**/
+.top_grid_course {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: column wrap;
+    width: 1200px;
+    height: 530px;
+    margin: 137px auto;
+}
+
+.grid_course_title {
+    width: 553px;
+    font: bold 48px/59px 'Montserrat', sans-serif;
+}
+
+.grid_course {
+    width: 1135px;
+    height: 411px;
+    display: grid;
+    flex-flow: row wrap;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 30px;
+}
+
+.grid_course_item {
+    display: flex;
+    flex-flow: row wrap;
+    width: 286px;
+    height: 126px;
+    background: #000;
+    border-radius: 7.35723px;
+    padding: 32px 30px 36px 39px;
+}
+
+.grid_course_text {
+    padding-top: 20px;
+    width: 286px;
+    font: 400 18px/21px 'Roboto Condensed', sans-serif;
+    color: #FFF;
+}
+
+/**/
+.centre_black_section {
+    display: flex;
+    align-items: center;
+    flex-flow: column nowrap;
+    margin: auto;
+    max-width: 1920px;
+    height: 694px;
+    background: #000;
+}
+
+.black_centre {
+    font: 500 48px/58px 'Montserrat', sans-serif;
+    color: #FFF;
+    text-align: center;
+    padding-top: 125px;
+}
+
+.select {
+    display: inline-block;
+    position: relative;
+  }
+
+.form {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 80px;
+    max-width: 1490px;
+    height: 103px;
+}
+
+.form_input {
+    width: 340px;
+    height: 64px;
+    background: #FFF;
+    border: 1.34888px solid #C0C0C0;
+    border-radius: 4px;
+    margin: 0 10px;   
+}
+
+.form_input_text{
+    font: 500 18px/22px 'Montserrat', sans-serif;
+    padding-left: 28px;
+    color: #999999;
+}
+
+
+.form_button{
+    width: 330px;
+    height: 64px;
+    font: 600 18px/22px 'Montserrat', sans-serif;
+    color: white;
+    background-color: #05090C;
+    margin-left: 10px;
+    border: 2px solid #FFF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.checkbox_consent
+{
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.checkbox_consent+label{
+    display: flex;
+    align-items: center;
+    user-select: none;
+}
+
+.checkbox_consent+label::before{
+    content: '';
+    display: inline-block;
+    background: #000;
+    border: 1.34888px solid #C0C0C0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 22px;
+    height: 22px;
+    margin-left: 10px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.checkbox_consent:checked+label::before
+{
+
+    background-color: #EE58B6;
+    background-image: url("../images/Vector.svg");
+}
+.checkbox_text{
+    font: 400 16px/22px 'Roboto Condensed', sans-serif;
+    color: #FFF;
+    margin-left: 8px;
+}
+
+/**/
+.author {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    margin-top: 126px;
+    max-width: 1920px;
+}
+
+.photo {
+    border-radius: 50%;
+}
+
+.author_title {
+    margin-top: 20px;
+    margin-bottom: 9px;
+    font: bold 26px/31px 'Montserrat', sans-serif;
+}
+
+.author_text {
+    display: flex;
+    flex-flow: row wrap;
+    margin: auto;
+    font: 500 18px/27px 'Roboto Condensed', sans-serif;
+    text-align: center;
+}
+
+.printer {
+    width: 734px;
+    height: 27px;
+    margin-bottom: 24px;
+}
+
+.creative_projects {
+    width: 626px;
+    height: 81px;
+    margin-bottom: 43px;
+}
+
+.contacts {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    margin: auto;
+    width: 166px;
+    margin-bottom: 118px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background-color: #000;
+    font: bold 31px/38px 'Montserrat', sans-serif;
+    color: #FFF;
+    height: 108px;
+    max-width: 1920px;
+}
+
